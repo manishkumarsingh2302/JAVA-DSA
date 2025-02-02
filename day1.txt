@@ -1,0 +1,21 @@
+  
+
+
+
+   Q1. Explain algorithm in data Structure?
+Ans: An Algorithm is a step by step procedure or set of rules to perfrom
+some specific task or to solve a particular problem. It consist of a
+number of finite state of well defined instructions that take inputs
+, proccess it, and produce some output
+
+Q2. Write an algorithm to check given number is Perfect
+number?
+Step1: Start
+Step2: input a number
+Step3: initialize fsum=0
+Step4: Loop from 1 to &lt;=n/2
+If i is divisor of(n%I==0) then add i to fsum
+Step5:Check if fsum is equal to original number(n)
+If n==fsum then print it is Perfect Number
+Else ,print this is not a perfect number
+Step6: end
