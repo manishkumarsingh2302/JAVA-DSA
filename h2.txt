@@ -1,0 +1,60 @@
+Q4. Explain HashTable class in java?
+Ans: if we want to represent group of entity in key
+value pair where duplicates keys are not allowed
+,insertion order not preserved and thread safety is
+required then we should go for HashTable
+
+import java.util.HashMap;
+import java.util.Hashtable;
+import java.util.LinkedHashMap;
+import java.util.Map;
+import java.util.Set;
+import java.util.TreeMap;
+
+/*
+* To change this license header, choose License
+Headers in Project Properties.
+* To change this template file, choose Tools |
+Templates
+* and open the template in the editor.
+*/
+
+/**
+*
+* @author Admin
+*/
+public class H1 {
+public static void main(String[] args) {
+Hashtable&lt;Integer,String&gt; hm=new
+Hashtable&lt;Integer, String&gt;();
+hm.put(100,&quot;A&quot;);
+hm.put(10,&quot;B&quot;);
+hm.put(200,&quot;C&quot;);
+hm.put(30,&quot;D&quot;);
+
+hm.put(500,&quot;E&quot;);
+hm.put(100, &quot;AAAA&quot;);
+
+System.out.println(&quot;&quot;+hm);
+Set keys=hm.keySet();
+
+System.out.println(&quot;print element of HasMap
+using Map.Entry&quot;);
+for(Map.Entry&lt;Integer,String&gt; k:hm.entrySet()){
+System.out.println(&quot;Key is : &quot;+k.getKey()+&quot;
+Value is &quot;+k.getValue());
+}
+
+}
+}
+
+import java.util.HashMap;
+import java.util.Hashtable;
+import java.util.LinkedHashMap;
+import java.util.Map;
+import java.util.Set;
+import java.util.TreeMap;
+
+/*
+* To change this license header, choose License
+Headers in Project Properties.
