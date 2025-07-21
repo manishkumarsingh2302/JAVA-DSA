@@ -11,12 +11,12 @@
 
       for (int i=1;i<=9;i++){
       
-      for(int j=2;j<=i;j++){
+      for(int j=1;j<=i;j++){
       
-     System.out.print("-");
+     System.out.print(" ");
 }
 
-     for(int k=9;k>=i;k--){
+     for(int k=i;k<=(i*2-1);k--){
 
      System.out.print("*");
 }
