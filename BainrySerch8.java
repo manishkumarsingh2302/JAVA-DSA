@@ -1,6 +1,6 @@
 //serch 16 in these given box [1,2,3,4,5,6,7,8,9,10] in binary serch?
 
-class main2{
+class BainrySerch8{
     public static void main(String[] args) {
         int a []={1,2,3,4,5,6,7,8,9,10};
         int strt=0;
