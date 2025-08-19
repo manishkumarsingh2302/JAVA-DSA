@@ -1,12 +1,12 @@
-import java.util.Scanner;
-
-class Main3 {
-    
+public class Main3 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        String str = "manish";
-        // String gtr = "mahi";
-        // System.out.println(str.compareTo(gtr));
-        System.out.println(str.contains("bnm"));
+        String str = "Manish";
+        String rev = "";
+
+        for (int i = str.length() ; i >= 0; i--) {
+            rev = rev + str.charAt(i);
+        }
+
+        System.out.println("Reversed: " + rev);
     }
 }
