@@ -1,4 +1,4 @@
-class Main3 {
+class Mani {
     public static void main(String[] args) {
 String s1="My Name Is Manish"; 
 System.out.println(s1.indexOf("m"));
