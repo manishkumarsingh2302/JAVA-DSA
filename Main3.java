@@ -1,11 +1,17 @@
 class Main3 {
     public static void main(String[] args) {
-String s1="My Name Is Manish"; 
-System.out.println(s1.indexOf("m"));
-   System.out.println(s1.lastIndexOf("s"));  
-   System.out.println(s1.charAt(4));
-   System.out.println(s1.contains("ish"));  
-   System.out.println(s1.startsWith("m"));
-        
+String s1="MyNameIsManish"; 
+String rev="";
+for(int i=s1.length()-1;i>=0;i--){
+    rev=rev+s1.charAt(i);
+}
+if(s1.equals(rev)){
+    System.out.println("this is pailidrom");
+}
+else{
+    System.out.println("not palidrome");
+}
+    
     }
+    
 }
